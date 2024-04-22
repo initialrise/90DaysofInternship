@@ -16,6 +16,7 @@
 - Practice responsive web designs (REM, viewport, be familiar with css units)
 - Do grid and flexbox assignments
 - Build Modules
+- Look into positioning
 - Re-create PMSquare Designs
 
 # Data Team
