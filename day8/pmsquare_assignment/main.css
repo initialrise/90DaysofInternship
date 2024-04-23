@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  background-color: #fcfbfb;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.download-icon {
+  border-radius: 50%;
+  height: 1.2rem;
+}
+.angle-icon,
+.download-icon {
+  height: 1rem;
+  vertical-align: middle;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  box-shadow: 0px 1px 4px 0px #243a660d;
+}
+.navbar {
+  display: flex;
+  /* border-bottom: 1px solid rgb(216, 212, 212); */
+  padding: 20px 5px;
+  /* box-shadow: 0px 3px rgb(200, 196, 196); */
+  justify-content: space-around;
+  font-weight: 400;
+}
+#nav-logo {
+  height: 40px;
+  width: 175px;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  color: #243a66;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.primary-button {
+  background-color: #3173b0;
+  padding: 10px 25px;
+  color: white;
+  font-size: medium;
+  border: none;
+}
+.secondary-button {
+  color: #3173b0;
+  padding: 10px 35px;
+  background-color: white;
+  font-size: medium;
+  border: 2px solid #3173b0;
+}
+
+.hero-text {
+  width: 60%;
+  line-height: 1.7;
+  margin-top: 125px;
+}
+h1 {
+  font-family: "Merriweather";
+  color: #243a66;
+  font-size: 35px;
+}
+
+.blue-text {
+  color: #3173b0;
+  font-family: "Merriweather";
+}
+
+main {
+  padding: 0px 90px;
+}
+.hero-section {
+  display: flex;
+}
+.hero-text > p {
+  padding-right: 200px;
+  line-height: 1.9;
+  color: #3e3d3d;
+  margin: 20px 0px;
+  font-size: larger;
+}
+
+.hero-text > .primary-button {
+  margin-right: 20px;
+}
+.hero-images > img {
+  width: 230px;
+  height: 230px;
+  border: 8px solid white;
+  box-shadow: 0px 4px 5px 0px #00000040;
+  border-radius: 10px;
+  object-fit: cover;
+
+  box-shadow: 9px 14px 164px -31px rgba(139, 184, 219, 0.75);
+}
+
+.hero-images {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  padding: 0px;
+  margin-top: 100px;
+  box-shadow: 5px 14px 164px -31px rgba(139, 184, 219, 0.75);
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 5.71%,
+    rgba(255, 255, 255, 0.1) 92.66%
+  );
+}
+
+img:nth-child(2) {
+  border-top-right-radius: 80px;
+}
+
+img:nth-child(3) {
+  border-bottom-left-radius: 80px;
+}
+
+.services-section {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.services-header {
+  width: 50%;
+}
+.services-header > p {
+  margin-top: 10px;
+}
+.services-card * {
+  background-color: white;
+}
+
+.services-card > h1 {
+  font-size: 25px;
+}
+
+.services-card > p {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.services-card {
+  background-color: white;
+  box-shadow: 1px 1px 4px 0px #3173b01a;
+  padding: 24px 32px 24px 32px;
+  border-radius: 15px;
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.services-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 30px;
+  margin-top: 20px;
+}
+.card-icon {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.next-icon {
+  width: 40px;
+  position: absolute;
+  bottom: 30px;
+}
