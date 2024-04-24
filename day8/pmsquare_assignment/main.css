@@ -160,6 +160,7 @@ img:nth-child(3) {
 .services-card {
   background-color: white;
   box-shadow: 1px 1px 4px 0px #3173b01a;
+  /* shadow-[1px_1px_4px_0px_#3173b01a]; */
   padding: 24px 32px 24px 32px;
   border-radius: 15px;
   position: relative;
