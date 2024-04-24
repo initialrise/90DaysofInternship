@@ -6,146 +6,149 @@
     <title>PMSquare</title>
     <link rel="stylesheet" href="main.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav class="navbar flex">
+    <header class="border-[1px] bg-white shadow-[#243a660d] shadow-[0px_1px_4px_0px_#243a660d]">
+      <nav class="navbar flex flex-row justify-between items-center py-[20px]  font-poppins  font-normal px-[80px]">
         <img
           id="nav-logo"
-          class="h-[56px] w-[176px]"
+          class="h-[38px] w-[176px]"
           src="assets/logo.svg"
           alt="pmsquare logo"
         />
-        <ul>
+        <ul class="w-[72%] flex justify-between items-center gap-[28px] text-primary leading-[30px]">
           <li><a href="#">Home</a></li>
-          <li>
-            <a href="#"
+          <li class=>
+            <a href="#" class="flex items-center gap-[8px]"
               >Services We Offer
-              <img class="angle-icon" src="assets/angle_down.svg"
+              <img class="angle-icon w-[16px] h-[16px]" src="assets/angle_down.svg"
             /></a>
           </li>
           <li>
             <a href="#"
-              >What We Do <img class="angle-icon" src="assets/angle_down.svg"
+               class="flex items-center gap-[10px]" >What We Do <img class="w-[16px] h-[16px]" src="assets/angle_down.svg"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a href="#" class="flex items-center gap-[8px]"
               >Learn <img class="angle-icon" src="assets/angle_down.svg"
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a href="#" class="flex items-center gap-[8px]"
               >Connect <img class="angle-icon" src="assets/angle_down.svg"
             /></a>
           </li>
           <li><a href="#">Contact US</a></li>
-          <li><button class="primary-button">Search</button></li>
+          <li><button class="bg-secondary text-black py-[6px] px-[30px] font-medium text-white">Search</button></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="hero-section">
-        <div class="hero-text">
-          <h1>
-            <span class="blue-text">Unlocking </span>Strategic Digital
-            Innovation :
+    <main class="px-[90px]">
+      <section class="hero-section flex">
+        <div class="hero-text mt-[120px] w-[60%] leading-[1.7]">
+          <h1 class="font-merri text-primary text-[35px] font-semibold">
+            <span class="text-secondary">Unlocking </span>Strategic Digital
+            Innovation:
           </h1>
-          <h1>
-            Elevate Your <span class="blue-text">Business</span> With
-            <span class="blue-text">PMSquare</span>
+          <h1 class="font-merri text-primary text-[35px] font-semibold">
+            Elevate Your <span class="text-secondary">Business</span> With
+            <span class="text-secondary">PMSquare</span>
           </h1>
-          <p>
+          <p class="leading-[1.9] text-[#3e3d3d] my-[20px] text-[larger] font-poppins pr-[200px]">
             PMsquare simplifies the complex challenge of architecting a data and
             analytics strategy that actually works. As an end-to-end solution
             provider, our team of analytics experts delivers through strategy,
             implementation, and ongoing support.
           </p>
-          <button class="primary-button">
-            GET STARTED <img src="assets/download.svg" class="download-icon" />
-          </button>
-          <button class="secondary-button">WANT TO KNOW MORE</button>
+          <div class="button-group flex gap-[35px]">
+<button class="gap-[8px] flex items-center bg-secondary text-black py-[5px] px-[20px] text-white font-poppins">GET STARTED <img src="assets/download.svg" class="download-icon rounded-full w-[20px] h-[20px]" />
+<button class="font-poppins font-semibold gap-[5px] gap-[7px] flex items-center text-black py-[7px] px-[20px] text-secondary border-secondary border-[2px] border-solid">WANT TO KNOW MORE </button>
+          </div>
         </div>
-        <div class="hero-images">
-          <img src="assets/laptop.jpg" alt="laptop" />
-          <img src="assets/building.jpg" alt="building" />
-          <img src="assets/office.jpg" alt="office" />
-          <img src="assets/office2.jpg" alt="office2" />
+        <div class="hero-images grid grid-cols-2 gap-[15px] shadow-2xl rounded-tr-[80px] rounded-bl-[80px] mt-[90px]">
+          <img src="assets/laptop.jpg" class="object-cover rounded-[10px] shadow-2xl w-[230px] h-[230px] border-[8px] border-[solid] border-[white]" alt="laptop" />
+          <img src="assets/office.jpg" class="object-cover rounded-[10px] shadow-2xl w-[230px] h-[230px] border-[8px] border-[solid] rounded-tr-[80px] border-[white]" alt="office" />
+          <img src="assets/office2.jpg" class="object-cover rounded-[10px] shadow-2xl w-[230px] h-[230px] border-[8px] border-[solid] rounded-bl-[80px] border-[white]" alt="office2" />
+          <img src="assets/building.jpg" class="object-cover rounded-[10px] shadow-2xl w-[230px] h-[230px] border-[8px] border-[solid] border-[white]" alt="building" />
         </div>
       </section>
-      <section class="services-section">
-        <div class="services-header">
-          <h1><span class="blue-text"> Services</span> We Offer</h1>
-          <p>
+      <section class="services-section mt-[150px]">
+        <div class="services-header w-1/2">
+          <h1 class="text-[35px] font-semibold font-merri text-primary"><span class="text-secondary"> Services</span> We Offer</h1>
+          <p class="font-poppins ">
             Delivering value to multiple industries, we innovate
             industry-specific technologies to scale and optimize operations and
             bottom line.
           </p>
         </div>
 
-        <div class="services-card-container">
-          <div class="services-card">
+        <div class="services-card-container grid grid-cols-4 gap-[30px] mt-[20px] leading-[30px] mb-[30px]">
+          <div class="services-card rounded-[15px] py-[24px] px-[32px] flex flex-col gap-[10px] shadow-[1px_1px_4px_0px_#3173b01a] bg-white">
             <img
               src="assets/vector1.svg"
-              class="card-icon"
+              class="card-icon h-[30px] w-[30px]" 
               alt="audience-icon"
             />
-            <h1>Advisory Services</h1>
-            <p>
+            <h1 class="text-[25px] font-merri text-primary bg-white font-semibold">Advisory Services</h1>
+            <p class="bg-white font-poppins text-[14px]">
               At PMsquare, we are your trusted partner in navigating the complex
               world of data, analytics, and cloud solutions. Our advisory
               services are designed to empower your organization with the
               knowledge, expertise.
             </p>
-            <img src="assets/next.svg" class="next-icon" />
+            <img src="assets/next.svg" class="next-icon w-[40px]" />
           </div>
-          <div class="services-card">
-            <!-- <span class="material-symbols-outlined"> terminal </span> -->
-            <img src="assets/vector2.svg" class="card-icon" alt="staff icon" />
-            <h1>Staff Augmentation</h1>
-            <p>
-              PMsquare has a deep team of technical experts across multiple
-              competencies that can augment your existing teams to fill skill
-              gaps or increase overall bandwidth on either a short or long-term
-              basis.
-            </p>
-            <img src="assets/next.svg" class="next-icon" />
-          </div>
-          <div class="services-card">
+          <div class="services-card rounded-[15px] py-[24px] px-[32px] flex flex-col gap-[10px] shadow-[1px_1px_4px_0px_#3173b01a] bg-white">
             <img
-              src="assets/vector3.svg"
-              class="card-icon"
-              alt="training icon"
+              src="assets/vector1.svg"
+              class="card-icon h-[30px] w-[30px]" 
+              alt="audience-icon"
             />
-            <h1>Training</h1>
-            <p>
+            <h1 class="text-[25px] font-merri text-primary bg-white font-semibold">Staff Augmentation</h1>
+            <p class="bg-white font-poppins text-[14px]">
               At PMsquare, we are your trusted partner in navigating the complex
               world of data, analytics, and cloud solutions. Our advisory
               services are designed to empower your organization with the
               knowledge, expertise.
             </p>
-            <img src="assets/next.svg" class="next-icon" />
+            <img src="assets/next.svg" class="next-icon w-[40px]" />
           </div>
-          <div class="services-card">
+          <div class="rounded-[15px] services-card py-[24px] px-[32px] flex flex-col gap-[10px] shadow-[1px_1px_4px_0px_#3173b01a] bg-white">
             <img
-              src="assets/vector4.svg"
-              class="card-icon"
-              alt="service icon"
+              src="assets/vector1.svg"
+              class="card-icon h-[30px] w-[30px]" 
+              alt="audience-icon"
             />
-            <h1>Managed Services</h1>
-            <p>
+            <h1 class="text-[25px] font-merri text-primary bg-white font-semibold">Training</h1>
+            <p class="bg-white font-poppins text-[14px]">
               At PMsquare, we are your trusted partner in navigating the complex
               world of data, analytics, and cloud solutions. Our advisory
               services are designed to empower your organization with the
               knowledge, expertise.
             </p>
-            <img src="assets/next.svg" class="next-icon" />
+            <img src="assets/next.svg" class="next-icon w-[40px]" />
           </div>
+          <div class="services-card rounded-[15px] py-[24px] px-[32px] flex flex-col gap-[10px] shadow-[1px_1px_4px_0px_#3173b01a] bg-white">
+            <img
+              src="assets/vector1.svg"
+              class="card-icon h-[30px] w-[30px]" 
+              alt="audience-icon"
+            />
+            <h1 class="text-[25px] font-merri text-primary bg-white font-semibold">Managed Services</h1>
+            <p class="bg-white font-poppins text-[14px]">
+              At PMsquare, we are your trusted partner in navigating the complex
+              world of data, analytics, and cloud solutions. Our advisory
+              services are designed to empower your organization with the
+              knowledge, expertise.
+            </p>
+            <img src="assets/next.svg" class="next-icon w-[40px]" />
+          </div>
+
         </div>
       </section>
     </main>
