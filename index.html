@@ -4,6 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Internship</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <style>
+    tr:nth-child(odd) {
+      background-color: #f9fbfc;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins";
+    }
+    table {
+      padding: 30px;
+      border-radius: 50px;
+      background-color: white;
+      font-size: larger;
+      text-align: center;
+      border: 1px solid rgb(85, 162, 209);
+    }
+    @media screen and (min-width: 1000px) {
+      table {
+        width: 1000px;
+      }
+    }
+
+    th {
+      border: 1px solid black;
+    }
+    /*
+    td {
+      background-color: yellow;
+      color: black;
+    } */
+    h1 {
+      color: rgb(85, 162, 209);
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f8ff;
+      height: 100vh;
+    }
+
+    a,
+    a:visited {
+      color: rgb(85, 162, 209);
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <main>
+      <header>
+        <h1>InternShip Assignments</h1>
+      </header>
+      <table>
+        <tr>
+          <th>S.N.</th>
+          <th>Description</th>
+          <th>Code</th>
+          <th>Demo</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Convert Figma Design into static website using HTML and CSS</td>
+          <td>
+            <a
+              href="https://github.com/initialrise/90DaysofInternship/tree/main/day8/pmsquare_assignment"
+              >Link</a
+            >
+          </td>
+          <td>
+            <a href="https://pmsquare.netlify.app/day8/pmsquare_assignment"
+              >Link</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Convert Figma Design into static website using Tailwind</td>
+          <td>
+            <a
+              href="https://github.com/initialrise/90DaysofInternship/tree/main/day9/tailwind_assignment"
+              >Link</a
+            >
+          </td>
+          <td>
+            <a href="https://pmsquare.netlify.app/day9/tailwind_assignment"
+              >Link</a
+            >
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
 </html>
