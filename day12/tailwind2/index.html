@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citizen Centric</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body class="h-screen font-poppins">
+    <header
+      class="flex flex-row justify-between items-center border-b-[1px_solid_#D7D7D7B2] px-[24px] py-[10px] font-poppins"
+    >
+      <div class="logo w-[137px] h-[50px]"><img src="assets/logo.png" /></div>
+      <div
+        class="profile bg-[#DBE2EC99] flex rounded-full items-center w-[175px] h-[40px] gap-[10px] p-[3px]"
+      >
+        <div
+          class="profile-icon rounded-full bg-white w-[34px] h-[34px] flex justify-center items-center"
+        >
+          <img src="assets/profile.png" />
+        </div>
+        <div
+          class="profile-text flex items-center gap-[10px] font-[600] text-[14px]"
+        >
+          Ria Madison
+          <img src="assets/arrow.png" class="w-[10.54px] h-[6.25px]" />
+        </div>
+      </div>
+    </header>
+    <div class="h-full wrapper bg-secondary bg-[#DBE2EC99] flex">
+      <nav
+        class="h-full w-[250px] bg-[#253A67] px-[14px] pt-[16px] flex flex-col justify-between"
+      >
+        <ul>
+          <li
+            class="bg-white text-[#253A67] w-[222px] h-[44px] rounded-[5px] px-[8px] flex items-center"
+          >
+            <a href="#" class="flex gap-[8px] font-poppins-400"
+              ><img src="assets/navicon.png" /> Dashboard</a
+            >
+          </li>
+        </ul>
+        <div class="nav-footer">
+          <a href="#" class="flex text-white gap-[8px]"
+            ><img
+              src="assets/info.png"
+              class="w-[24px] h-[24px]"
+              alt="info icon"
+            />Citizen Centric Identity</a
+          >
+          <div
+            class="footer-links mt-[18px] border-t-[1px] border-solid flex flex-col gap-[15px] pt-[31px] pr-[28px]"
+          >
+            <div class="container flex gap-[6px]">
+              <img src="assets/aws.png" alt="aws logo" />
+              <img
+                src="assets/link.png"
+                alt="link logo"
+                class="w-[13px] h-[13px]"
+              />
+            </div>
+            <p class="text-white text-[12px] font-poppins font-[400]">
+              Offered Through
+            </p>
+            <div class="container flex gap-[6px]">
+              <img src="assets/awsmarket.png" alt="aws logo" />
+              <img
+                src="assets/link.png"
+                alt="link logo"
+                class="w-[13px] h-[13px]"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main class="w-full p-[24px]">
+        <section
+          class="hero rounded-[8px] bg-[linear-gradient(274.26deg,_#0266C9_4.14%,_#1F4493_100%)] flex items-center justify-around px-[15px]"
+        >
+          <div class="hero-image">
+            <img
+              src="assets/main.png"
+              alt="main logo"
+              class="w-[331px] h-[330px]"
+            />
+          </div>
+          <div
+            class="hero-text bg-white rounded-[12px] h-[250px] w-[767px] px-[40px] py-[24px]"
+          >
+            <h1 class="font-poppins font-[500] text-[#253A67] text-[32px]">
+              Citizen Centric
+            </h1>
+            <p class="text-[16px] font-[400]">
+              Empowering Personal Identity Management
+            </p>
+            <p class="text-[#4E4B66] leading-[21px] mt-[12px]">
+              Citizen-centric identity management prioritizes individual
+              control, emphasizing the right to manage personal information and
+              decide its sharing.
+            </p>
+            <button
+              class="bg-[#253A67] text-white mt-[24px] px-[24px] py-[12px] rounded-[4px]"
+            >
+              Get Started
+            </button>
+          </div>
+        </section>
+        <section class="font-poppins mt-[40px]">
+          <h1 class="font-[500] text-primary text-[24px]">
+            External Applications
+          </h1>
+          <p>
+            Third-party applications aligned with our
+            <span class="text-primary font-[600]">Citizen Centric</span>
+            approach.
+          </p>
+          <div class="mt-[20px] card-container grid grid-cols-3">
+            <div
+              class="card bg-white flex flex-col justify-center items-center shadow-[0px_2px_14px_0px_#253A671A] py-[38px] w-[365px] h-[282px]"
+            >
+              <div
+                class="img-container w-[149px] h-[135px] flex items-center justify-center"
+              >
+                <img
+                  src="/assets/county.png"
+                  alt="county logo"
+                  class="w-[100px] h-[100px]"
+                />
+              </div>
+              <h2
+                class="mt-[8px] mb-[24px] text-primary text-[18px] font-[500]"
+              >
+                County Attorney
+              </h2>
+              <button
+                class="bg-[#253A67] text-white px-[24px] py-[12px] rounded-[4px]"
+              >
+                Get Started
+              </button>
+            </div>
+            <div
+              class="card bg-white flex flex-col justify-center items-center shadow-[0px_2px_14px_0px_#253A671A] py-[38px] w-[365px] h-[282px]"
+            >
+              <div
+                class="img-container w-[149px] h-[135px] flex items-center justify-center"
+              >
+                <img
+                  src="/assets/assesor.png"
+                  alt="assesor logo"
+                  class="w-[100px] h-[100px]"
+                />
+              </div>
+              <h2
+                class="mt-[8px] mb-[24px] text-primary text-[18px] font-[500]"
+              >
+                Assesors
+              </h2>
+              <button
+                class="bg-[#253A67] text-white px-[24px] py-[12px] rounded-[4px]"
+              >
+                Get Started
+              </button>
+            </div>
+            <div
+              class="card bg-white flex flex-col justify-center items-center shadow-[0px_2px_14px_0px_#253A671A] py-[38px] w-[365px] h-[282px]"
+            >
+              <div class="img-container w-[149px] h-[135px] flex items-center">
+                <img
+                  src="/assets/public.png"
+                  alt="county logo"
+                  class="w-[200px] h-[40px]"
+                />
+              </div>
+              <h2
+                class="mt-[8px] mb-[24px] text-primary text-[18px] font-[500]"
+              >
+                Public Works and Development
+              </h2>
+              <button
+                class="bg-[#253A67] text-white px-[24px] py-[12px] rounded-[4px]"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
