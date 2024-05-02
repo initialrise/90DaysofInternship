@@ -1,11 +1,12 @@
 import { useState } from "react";
+import "./App.css";
 
 function FilterableProductTable({ products }) {
   const [filterText, setFilterText] = useState("");
   const [inStockOnly, setInStockOnly] = useState(false);
 
   return (
-    <div>
+    <div className="container">
       <SearchBar
         filterText={filterText}
         inStockOnly={inStockOnly}
@@ -33,7 +34,7 @@ function ProductRow({ product }) {
   const name = product.stocked ? (
     product.name
   ) : (
-    <span style={{ color: "red" }}>{product.name}</span>
+    <span style={{ color: "orange" }}>{product.name}</span>
   );
 
   return (
