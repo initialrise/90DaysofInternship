@@ -9,9 +9,14 @@ const Todo = ({ todoItem, handleTodo, todos }) => {
     // let newTodos = todos.filter((todoEl) => todoEl.id != todo.id);
     // newTodos = [...newTodos, tempTodo];
     let newTodos = [...todos];
-    let index = todo.id - 1;
-    console.log(newTodos[index]);
-    newTodos[index].completed = !todo.completed;
+    // console.log(newTodos);
+    for (let todoEL of newTodos) {
+      if (todo.id == todoEL.id) {
+        todo.completed = !todo.completed;
+      }
+    }
+    // let index = todo.id - 1;
+    // newTodos[index].completed = !todo.completed;
     handleTodo(newTodos);
   };
 

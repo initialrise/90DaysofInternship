@@ -38,6 +38,7 @@ function App() {
       todo: todoInput,
       completed: false,
     };
+    setTodoInput("");
     setTodos([...todos, newItem]);
   };
   return (
