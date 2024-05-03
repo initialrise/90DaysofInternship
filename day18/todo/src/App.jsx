@@ -15,6 +15,7 @@ function App() {
       completed: true,
     },
   ];
+  const [theme, setTheme] = useState("dark");
   const [todos, setTodos] = useState(defaultTodos);
   const [todoInput, setTodoInput] = useState("");
 
