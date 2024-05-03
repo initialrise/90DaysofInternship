@@ -346,11 +346,23 @@ video {
     max-width: 1536px;
   }
 }
+.pointer-events-none {
+  pointer-events: none;
+}
 .absolute {
   position: absolute;
 }
+.relative {
+  position: relative;
+}
 .z-10 {
   z-index: 10;
+}
+.ml-\[5px\] {
+  margin-left: 5px;
+}
+.mt-1 {
+  margin-top: 0.25rem;
 }
 .mt-\[50px\] {
   margin-top: 50px;
@@ -358,23 +370,44 @@ video {
 .flex {
   display: flex;
 }
+.hidden {
+  display: none;
+}
+.h-4 {
+  height: 1rem;
+}
 .h-\[300px\] {
   height: 300px;
 }
 .h-\[30px\] {
   height: 30px;
 }
-.h-screen {
-  height: 100vh;
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-4 {
+  width: 1rem;
 }
 .w-\[30px\] {
   width: 30px;
 }
+.w-\[400px\] {
+  width: 400px;
+}
 .w-\[500px\] {
   width: 500px;
 }
+.w-\[82\%\] {
+  width: 82%;
+}
+.w-\[95px\] {
+  width: 95px;
+}
 .w-full {
   width: 100%;
+}
+.flex-1 {
+  flex: 1 1 0%;
 }
 .appearance-none {
   -webkit-appearance: none;
@@ -387,6 +420,9 @@ video {
 .items-center {
   align-items: center;
 }
+.justify-center {
+  justify-content: center;
+}
 .justify-between {
   justify-content: space-between;
 }
@@ -395,6 +431,9 @@ video {
 }
 .gap-\[20px\] {
   gap: 20px;
+}
+.rounded-\[10px\] {
+  border-radius: 10px;
 }
 .rounded-full {
   border-radius: 9999px;
@@ -428,6 +467,9 @@ video {
 .bg-cover {
   background-size: cover;
 }
+.p-\[10px\] {
+  padding: 10px;
+}
 .px-\[30px\] {
   padding-left: 30px;
   padding-right: 30px;
@@ -436,11 +478,20 @@ video {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.text-center {
+  text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
+}
 .font-jersey {
   font-family: "Jersey 15";
 }
 .font-josefin {
   font-family: Josefin Sans;
+}
+.text-\[15px\] {
+  font-size: 15px;
 }
 .text-\[18px\] {
   font-size: 18px;
@@ -476,4 +527,13 @@ video {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(227 229 242 / var(--tw-text-opacity));
+}
+.peer:checked ~ .peer-checked\:block {
+  display: block;
+}
+.peer:valid ~ .peer-valid\:block {
+  display: block;
+}
+.peer:focus ~ .peer-focus\:block {
+  display: block;
 }
