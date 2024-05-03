@@ -7,7 +7,7 @@ export default {
       jersey: ["'Jersey 15'"],
     },
     backgroundImage: {
-      main: "url('src/assets/images/bg-desktop-dark.jpg')",
+      main: "url('assets/images/bg-desktop-dark.jpg')",
     },
     colors: {
       primary: "#e3e5f2",
