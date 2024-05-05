@@ -1,5 +1,6 @@
 import { useState } from "react";
 import EditModal from "./EditModal";
+import { FaPencil, FaRegTrashCan } from "react-icons/fa6";
 
 const Todo = ({ todoItem, handleTodo, todos }) => {
   const [todo, setTodo] = useState(todoItem);
@@ -64,20 +65,20 @@ const Todo = ({ todoItem, handleTodo, todos }) => {
               {todo.todo}
             </span>
           </div>
-          <div className="button-group flex">
+          <div className="button-group flex gap-[8px]">
             <button
-              className="text-red-500 text-[25px] w-[30px] h-[30px] text-secondary hover:text-primary font-jersey"
+              className="text-red-500  text-secondary hover:text-primary font-jersey"
               title="Edit Todo"
               onClick={() => setEditView(!editView)}
             >
-              E
+              <FaPencil />
             </button>
             <button
-              className="text-red-500 text-[25px] w-[30px] h-[30px] text-secondary hover:text-primary font-jersey"
+              className="text-red-500   text-secondary hover:text-primary font-jersey"
               title="Remove Todo"
               onClick={removeTodo}
             >
-              X
+              <FaRegTrashCan />
             </button>
           </div>
         </div>
