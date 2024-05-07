@@ -70,9 +70,9 @@ function App() {
             required
           />
 
-          <div className="wrapper hidden peer-valid:flex">
+          {/* <div className="wrapper hidden peer-valid:flex">
             <CustomDatePicker />
-          </div>
+          </div> */}
           <button className="hidden peer-valid:block peer ml-[5px] bg-todocolor add-button align-middle py-[15px] w-[30px] text-secondary hover:text-primary text-center mr-[30px]">
             Add
           </button>
