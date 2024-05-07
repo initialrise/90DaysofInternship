@@ -1,4 +1,2 @@
 [build]
   command = "npm run build"
-  #command = "npm run build && mv dist/* ."
-  publish = "dist"
