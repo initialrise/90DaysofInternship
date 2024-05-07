@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const CustomInput = ({ value, onClick }) => {
   return (
-    <button onClick={onClick} className="text-primary p-[16px] ">
+    <button type="button" onClick={onClick} className="text-primary p-[16px] ">
       C
     </button>
   );
