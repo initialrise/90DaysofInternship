@@ -26,13 +26,13 @@ function App() {
   const [taskView, setTaskView] = useState<Status>("all");
   const [task, setTask] = useState<string>("");
 
-  let listToView;
+  // let listToView: TaskType[] = tasks;
 
   // function findListToView:TaskType[]() {
   //   if (taskView == "todo") {
   //     return tasks.filter((task) => task.status == "todo");
   //   } else if (taskView == "progress") {
-  //     return tasks.filt ffuer((task) => task.status == "progress");
+  //     return tasks.filter((task) => task.status == "progress");
   //   } else if (taskView == "completed") {
   //     return tasks.filter((task) => task.status == "completed");
   //   } else {
@@ -55,8 +55,7 @@ function App() {
     setTasks(newTasks);
   }
 
-  function handleAdd(e: any): void {
-    console.log(e);
+  function handleAdd(e: React.SyntheticEvent): void {
     e.preventDefault();
     const newTask: TaskType = {
       id: Date.now(),
@@ -91,7 +90,11 @@ function App() {
 
         <h2>Showing {taskView}</h2>
         <TaskContainer
-          tasks={listToView}
+          tasks={
+            taskView === "all"
+              ? tasks
+              : tasks.filter((task) => task.status === taskView)
+          }
           handleRemove={handleRemove}
           handleUpdate={handleUpdate}
         />

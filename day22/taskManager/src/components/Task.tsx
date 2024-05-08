@@ -13,20 +13,25 @@ type TaskProps = {
 
 export function Task({ task, handleRemove, handleUpdate }: TaskProps) {
   return (
-    <div className="task flex gap-[10px] justify-between w-[500px] border border-2 border-cyan-800">
+    <div className="task flex gap-[10px] justify-between w-[500px]  border-2 border-cyan-800">
       <h3>{task.task}</h3>
-      <button
-        onClick={() => handleRemove(task.id)}
-        className="bg-slate-500 text-white px-[30px]"
-      >
-        X
-      </button>
-      <button
-        onClick={() => handleUpdate(task.id, "all")}
-        className="bg-slate-500 text-white px-[30px]"
-      >
-        X
-      </button>
+
+      <div className="button-group *:border-2">
+        <button
+          onClick={() => handleRemove(task.id)}
+          className="bg-slate-500 text-white px-[30px]"
+        >
+          X
+        </button>
+
+        <select
+          onChange={(e) => handleUpdate(task.id, e.target.value as Status)}
+        >
+          <option value="todo">TODO</option>
+          <option value="completed">Completed</option>
+          <option value="progress">Progress</option>
+        </select>
+      </div>
     </div>
   );
 }
