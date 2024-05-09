@@ -32,15 +32,15 @@ function Item({ item }: { item: ItemType }) {
   );
 }
 export default function Catalogue() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<ItemType[]>([]);
 
-  async function getProducts() {
+  async function getProducts(): Promise<void> {
     try {
       const response = await fetch("https://fakestoreapi.com/products/");
       const items = await response.json();
       setProducts(items);
     } catch (e) {
-      console.log(e);
+      console.trace(e);
     }
   }
   useEffect(() => getProducts, [products]);

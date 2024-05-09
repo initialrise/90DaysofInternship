@@ -1,0 +1,11 @@
+[build]
+  base = "/day24/blog/"
+  command = "yarn build"
+  publish = "dist"
+
+#[[plugins]]
+#  package = "netlify-plugin-vite"
+
+#  [plugins.inputs]
+#    # Specify the path to the Vite config file if it's not in the root directory.
+#    viteConfigPath = "vite.config.js"
