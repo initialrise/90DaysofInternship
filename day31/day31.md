@@ -1,6 +1,5 @@
 ### Day 31
-Plans
-Certainly! Here's a roadmap covering some advanced topics in Python:
+Personal Plans For Today
 
 1. **Generators**:
    - Understanding generator functions and generator expressions.
