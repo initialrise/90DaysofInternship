@@ -1,13 +1,16 @@
 ### Day 31
+
 Personal Plans For Today
 
 1. **Generators**:
+
    - Understanding generator functions and generator expressions.
    - Differences between generators and regular functions.
    - Lazy evaluation and memory efficiency.
    - Use cases: processing large datasets, creating infinite sequences, asynchronous programming.
 
 2. **List Comprehensions**:
+
    - Syntax and usage of list comprehensions for concise and expressive code.
    - Nested list comprehensions.
    - Conditional expressions in list comprehensions.
@@ -15,6 +18,7 @@ Personal Plans For Today
    - Use cases: transforming data, filtering elements, creating lists with specific patterns.
 
 3. **Decorators**:
+
    - Defining and using decorators to modify or extend the behavior of functions or methods.
    - Decorating functions with other functions.
    - Decorating class methods.
@@ -22,6 +26,7 @@ Personal Plans For Today
    - Use cases: logging, authentication, caching, memoization, performance profiling.
 
 4. **Lambda Functions**:
+
    - Understanding lambda expressions for creating anonymous functions.
    - Syntax and limitations of lambda functions.
    - Use cases: passing simple functions as arguments, functional programming, sorting.
@@ -32,38 +37,3 @@ Personal Plans For Today
    - Using built-in iterators like `iter()` and `next()`.
    - Iterating over custom objects.
    - Use cases: custom data structures, lazy evaluation, creating your own iterable objects.
-
-6. **Exception Handling**:
-   - Using try-except blocks for handling exceptions.
-   - Handling multiple exceptions and specifying exception types.
-   - finally block and cleanup actions.
-   - Raising exceptions using raise statement.
-   - Custom exception classes.
-   - Use cases: error handling, input validation, defensive programming.
-
-7. **Concurrency and Parallelism**:
-   - Understanding concurrency vs. parallelism.
-   - Threading and multiprocessing modules.
-   - GIL (Global Interpreter Lock) and its implications.
-   - Asynchronous programming with async/await (asyncio module).
-   - Use cases: concurrent I/O-bound tasks, parallel CPU-bound tasks, improving performance.
-
-8. **Functional Programming**:
-   - Higher-order functions and functional purity.
-   - Immutable data structures.
-   - Map, filter, and reduce functions.
-   - Recursion vs. iteration.
-   - Use cases: data transformation, data processing pipelines, algorithmic problem-solving.
-
-9. **Metaprogramming**:
-   - Understanding metaclasses and class decorators.
-   - Dynamically creating classes and objects.
-   - Accessing and modifying attributes and methods at runtime.
-   - Use cases: framework development, code generation, extending and customizing behavior.
-
-10. **Context Managers**:
-    - Using the `with` statement to manage resources.
-    - Implementing context managers with `__enter__()` and `__exit__()` methods.
-    - Using contextlib module for creating context managers.
-    - Use cases: file handling, database connections, thread synchronization, resource cleanup.
-

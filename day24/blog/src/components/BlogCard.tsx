@@ -25,7 +25,7 @@ export default function BlogCard({ blog }: { blog: BlogType }) {
         <Link to={`/blog/${blog.id}`}>
           <Button>See More</Button>
         </Link>
-        <span>
+        <span className="text-slate-600">
           Posted at {new Date(blog.created_at).toLocaleDateString("en-US")}
         </span>
       </CardFooter>
