@@ -1,8 +1,12 @@
 import os
 
+
+
 def convert_txt_to_csv(i,txtfile):
     with open(txtfile,"r+") as t:
-        csv_content = "".join(t.readlines()).replace(";",",")
+        txt_content = "".join(t.readlines())
+        csv_content = txt_content.replace("|",",")
+        t.seek(0)
         t.write(csv_content)
     new_file_name = f"csv_file_{i}.csv"
     location = "/".join([txtfile.split("/")[0],txtfile.split("/")[1],new_file_name])
