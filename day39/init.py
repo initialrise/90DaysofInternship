@@ -10,10 +10,10 @@ def randomstring():
     return ''.join(random.choices(string.ascii_lowercase, k=5))
 
 def gen_random_data():
-    output = "Name Address Job Company \n"
+    output = "Name;Address;Job;Company\n"
     for _ in range(20):
         fake_details = [fake.name(),fake.address(),fake.job(),fake.company()]
-        output += " ".join(fake_details) + "\n"
+        output += ";".join(fake_details) + "\n"
     return output
 
 
