@@ -1,0 +1,125 @@
+Status,Procedure Name,Patient ID,Encounter ID,Procedure Date Time Start,Procedure Date Time End
+completed,Documentation of current medications,d76cce33-3dec-4874-b352-fa81812517c7,892a85bc-8639-426b-81d0-a07024f9588c,,
+completed,Colonoscopy,d76cce33-3dec-4874-b352-fa81812517c7,14f80114-ae38-4add-8fef-25236639acf4,2013-06-07T08:53:55-04:00,2013-06-07T09:26:12-04:00
+completed,Documentation of current medications,d76cce33-3dec-4874-b352-fa81812517c7,552358f1-0643-4488-958a-36c5f48e6f8c,,
+completed,Documentation of current medications,2db81051-c02a-4c72-b17d-feb8c49cded7,4684be41-4fb6-4cda-9e3a-76ea2c21bdb7,,
+completed,Documentation of current medications,2db81051-c02a-4c72-b17d-feb8c49cded7,db098aa7-27af-4c89-b87b-f6d8d48e62c1,,
+completed,Documentation of current medications,2db81051-c02a-4c72-b17d-feb8c49cded7,0ac86b17-e755-40e8-9ab0-62cdde75a379,,
+completed,Documentation of current medications,2db81051-c02a-4c72-b17d-feb8c49cded7,8886e598-e1ba-4642-b6aa-917025bf7415,,
+completed,Information gathering (procedure),2db81051-c02a-4c72-b17d-feb8c49cded7,a9d774f0-07c2-4010-97d4-9feecf25a5fc,,
+completed,Information gathering (procedure),2db81051-c02a-4c72-b17d-feb8c49cded7,8980d9a8-66ee-4163-8910-35ba6584b556,,
+completed,Colonoscopy,80bb41d3-ebb4-42e6-b087-6ee89b0463a9,50c5c5a1-814d-4a53-8407-129c9048f94a,2010-12-05T02:33:19-05:00,2010-12-05T03:17:11-05:00
+completed,Documentation of current medications,80bb41d3-ebb4-42e6-b087-6ee89b0463a9,f5b01614-f569-4e9e-b482-cc0231a7c20a,,
+completed,Documentation of current medications,80bb41d3-ebb4-42e6-b087-6ee89b0463a9,1460d856-b01a-4c3b-b8c7-07fd86cac5fe,,
+completed,Documentation of current medications,80bb41d3-ebb4-42e6-b087-6ee89b0463a9,df35b4c3-93ee-4f2c-b85e-af2f110f6d30,,
+completed,Colonoscopy,80bb41d3-ebb4-42e6-b087-6ee89b0463a9,705231ca-ff4e-4329-8d2c-7f723571a65b,2015-12-05T03:07:01-05:00,2015-12-05T03:37:50-05:00
+completed,Documentation of current medications,ddd6fcc5-4a60-450d-a55c-927113ec312e,7f27fcbc-2719-499e-bed1-5a19e8f26a00,,
+completed,Documentation of current medications,ddd6fcc5-4a60-450d-a55c-927113ec312e,47b9137f-6669-4992-842f-a2f701b234c9,,
+completed,Standard pregnancy test,ddd6fcc5-4a60-450d-a55c-927113ec312e,dc29b686-109f-4815-bf0d-08dfaa3414b3,,
+completed,Colonoscopy,5265a2b0-1bbc-4993-9042-b8d86ba65f10,f73f194d-1df1-42f9-8fdf-325cc87b2348,2010-03-01T05:16:12-05:00,2010-03-01T05:58:52-05:00
+completed,Documentation of current medications,5265a2b0-1bbc-4993-9042-b8d86ba65f10,597eec22-90bc-42a0-b345-de76a95874f2,,
+completed,Documentation of current medications,5265a2b0-1bbc-4993-9042-b8d86ba65f10,4fe3ed75-2a61-4e14-bbbd-ab33b27b7059,,
+completed,Colonoscopy,5265a2b0-1bbc-4993-9042-b8d86ba65f10,923dd0d3-86c4-4074-84b9-e33c98c05697,2015-03-01T05:57:29-05:00,2015-03-01T06:32:59-05:00
+completed,Documentation of current medications,aa3973d9-b64f-4a36-8cb6-f2719080b52f,fee0f09f-2c53-46e9-a50f-fe69d3238996,,
+completed,Measurement of respiratory function (procedure),aa3973d9-b64f-4a36-8cb6-f2719080b52f,6e177a9b-d986-4e75-92af-5b9b1683d422,2011-01-26T23:35:54-05:00,2011-01-26T23:52:12-05:00
+completed,Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance,aa3973d9-b64f-4a36-8cb6-f2719080b52f,66c3a37c-0d5f-4488-9e49-263c760e7f6c,,
+completed,Documentation of current medications,aa3973d9-b64f-4a36-8cb6-f2719080b52f,d8294703-8020-4f30-b8b5-01b76624d85c,,
+completed,Documentation of current medications,aa3973d9-b64f-4a36-8cb6-f2719080b52f,0a4e4fe4-13e3-486d-b090-03093669f7f3,,
+completed,Colonoscopy,aa3973d9-b64f-4a36-8cb6-f2719080b52f,a6eea737-086c-4905-9075-e6ef68624267,2014-04-15T10:19:55-04:00,2014-04-15T10:58:33-04:00
+completed,Documentation of current medications,83044f55-e41f-4489-a0b8-f69bd6c7b1d4,1facf162-1cb8-4ee1-87ee-c2d68146094a,,
+completed,Induced termination of pregnancy,83044f55-e41f-4489-a0b8-f69bd6c7b1d4,cceb597e-afbc-4137-a740-2b01390b2f21,,
+completed,Plain chest X-ray (procedure),83044f55-e41f-4489-a0b8-f69bd6c7b1d4,d97f4d4e-5c44-4905-9f64-3cae9cc48fc3,2013-06-30T15:23:55-04:00,2013-06-30T15:39:26-04:00
+completed,Standard pregnancy test,83044f55-e41f-4489-a0b8-f69bd6c7b1d4,46686fdf-e1e9-4b7f-b312-838702c8dc09,,
+completed,Epidural anesthesia,83044f55-e41f-4489-a0b8-f69bd6c7b1d4,b5f78f6b-52a0-4efc-9bd7-00c70b103707,,
+completed,Premature birth of newborn,83044f55-e41f-4489-a0b8-f69bd6c7b1d4,b5f78f6b-52a0-4efc-9bd7-00c70b103707,,
+completed,Documentation of current medications,00d869e2-6793-4ebf-9340-38bf18d223c4,78ff93e4-0e13-4f8a-9043-62a7e82a7d06,,
+completed,Documentation of current medications,00d869e2-6793-4ebf-9340-38bf18d223c4,16e1332c-476b-424c-9f6d-4f0460e09152,,
+completed,Admission to orthopedic department,00d869e2-6793-4ebf-9340-38bf18d223c4,8625df2e-3c5d-4dc2-83c7-714a126d407e,2013-04-21T02:07:56-04:00,2013-04-21T03:08:21-04:00
+completed,Documentation of current medications,7384d82c-2d1e-4595-99e4-f0ae962dddf1,51e42d6c-ac03-4289-8d6b-8a9646fb2c28,,
+completed,Bone immobilization,7384d82c-2d1e-4595-99e4-f0ae962dddf1,71fa7825-2118-48c0-ac11-b889983281cd,2011-09-05T08:15:01-04:00,2011-09-05T08:51:20-04:00
+completed,Documentation of current medications,7384d82c-2d1e-4595-99e4-f0ae962dddf1,e1550ad0-9509-462d-ae34-69577902dd4d,,
+completed,Documentation of current medications,7384d82c-2d1e-4595-99e4-f0ae962dddf1,dce76937-720b-40f7-9bfa-95018befd599,,
+completed,Suture open wound,7384d82c-2d1e-4595-99e4-f0ae962dddf1,709ba6ab-85ba-4eb0-b2ef-3533b601eb4c,2017-02-01T22:18:47-05:00,2017-02-01T22:30:47-05:00
+completed,Injection of tetanus antitoxin,7384d82c-2d1e-4595-99e4-f0ae962dddf1,709ba6ab-85ba-4eb0-b2ef-3533b601eb4c,2017-02-01T22:47:34-05:00,2017-02-01T23:05:07-05:00
+completed,Documentation of current medications,65dfe191-c7ef-4148-8f12-49f832525d4c,27bcacf8-f83d-422c-8c1e-ea99b8ed8c66,,
+completed,Documentation of current medications,65dfe191-c7ef-4148-8f12-49f832525d4c,dbb3958f-40eb-42ab-b8e6-33420f2edd5b,,
+completed,Documentation of current medications,65dfe191-c7ef-4148-8f12-49f832525d4c,d96ae564-576f-403a-a2a7-c7deb00a3ad5,,
+completed,Documentation of current medications,65dfe191-c7ef-4148-8f12-49f832525d4c,6f26ddfa-8ae7-4d2e-be5d-5dffa773a02d,,
+completed,Documentation of current medications,65dfe191-c7ef-4148-8f12-49f832525d4c,396937b1-5326-49bd-b8f3-f192e3149d42,,
+completed,Colonoscopy,c92cad20-6dd1-4e22-b3d9-6f0507854a96,d3ef328c-db2f-4545-b986-fa79a33d9587,2012-08-20T07:39:25-04:00,2012-08-20T08:13:33-04:00
+completed,Standard pregnancy test,c92cad20-6dd1-4e22-b3d9-6f0507854a96,a5e30473-7dec-4688-b476-1aed51df18a1,,
+completed,Epidural anesthesia,c92cad20-6dd1-4e22-b3d9-6f0507854a96,d8dabaef-d9ff-4570-81ce-54e56248bd67,,
+completed,Childbirth,c92cad20-6dd1-4e22-b3d9-6f0507854a96,d8dabaef-d9ff-4570-81ce-54e56248bd67,,
+completed,Documentation of current medications,c92cad20-6dd1-4e22-b3d9-6f0507854a96,52f0a1f1-c913-44b3-a46c-e73d7f36ce8f,,
+completed,Documentation of current medications,a0dcd747-1d40-40fd-8e42-1f9395f034ca,691fcf69-0b1c-4ee6-ae07-2387b33ab3a5,,
+completed,Documentation of current medications,a0dcd747-1d40-40fd-8e42-1f9395f034ca,3446d4b8-0fde-48a2-897f-873af4963c9f,,
+completed,Documentation of current medications,a0dcd747-1d40-40fd-8e42-1f9395f034ca,e6cee08b-e600-49e3-ae3c-85671661a66a,,
+completed,Colonoscopy,a0dcd747-1d40-40fd-8e42-1f9395f034ca,fc59c225-917b-4485-a399-38c2c1d545a2,2014-02-12T20:56:01-05:00,2014-02-12T21:30:46-05:00
+completed,Fecal occult blood test,a0dcd747-1d40-40fd-8e42-1f9395f034ca,fc59c225-917b-4485-a399-38c2c1d545a2,,
+completed,Rectal polypectomy,a0dcd747-1d40-40fd-8e42-1f9395f034ca,fc59c225-917b-4485-a399-38c2c1d545a2,,
+completed,Colonoscopy,a0dcd747-1d40-40fd-8e42-1f9395f034ca,15881082-188e-435d-8a7e-fe1f6bcb60be,2015-05-29T16:57:34-04:00,2015-05-29T17:36:37-04:00
+completed,Rectal polypectomy,a0dcd747-1d40-40fd-8e42-1f9395f034ca,15881082-188e-435d-8a7e-fe1f6bcb60be,,
+completed,Documentation of current medications,a0dcd747-1d40-40fd-8e42-1f9395f034ca,502640fc-5021-47e5-934d-7fa74186c889,,
+completed,Colonoscopy,a0dcd747-1d40-40fd-8e42-1f9395f034ca,92d2402a-d6be-409e-a0d1-822c6e3a2a46,2016-07-17T12:40:00-04:00,2016-07-17T13:24:47-04:00
+completed,Documentation of current medications,3a5357d9-13f3-42de-8fdc-14a1a6cae148,d53f9c2a-250a-49a9-9f8d-321ca30034bb,,
+completed,Colonoscopy,3a5357d9-13f3-42de-8fdc-14a1a6cae148,6c2a787a-9160-4ef5-91c3-93872c1bd727,2012-02-26T04:29:53-05:00,2012-02-26T05:12:42-05:00
+completed,Documentation of current medications,3a5357d9-13f3-42de-8fdc-14a1a6cae148,2ceaf534-2f2e-4e02-9c4d-9218c02111c4,,
+completed,Documentation of current medications,3a5357d9-13f3-42de-8fdc-14a1a6cae148,4aaea16e-0460-42f8-82de-aeaeef1b8004,,
+completed,Documentation of current medications,3a5357d9-13f3-42de-8fdc-14a1a6cae148,cf8b090d-5ca7-4592-bb38-12dfd203d381,,
+completed,Documentation of current medications,3a5357d9-13f3-42de-8fdc-14a1a6cae148,8c55e828-8775-4837-82fe-c4ac9d66f7b5,,
+completed,Documentation of current medications,3a5357d9-13f3-42de-8fdc-14a1a6cae148,2c0cd0b4-9950-4e5c-a419-a791cf5509fa,,
+completed,Documentation of current medications,65d12976-9588-4cfa-a795-216302a2ece9,7b7130df-8af7-406e-b980-5d2f3a946867,,
+completed,Documentation of current medications,65d12976-9588-4cfa-a795-216302a2ece9,744566ba-5740-4e51-a218-283f74312061,,
+completed,Measurement of respiratory function (procedure),65d12976-9588-4cfa-a795-216302a2ece9,ddc2fb3c-6ea7-4b66-931b-0a0b4bfd3a75,2015-01-07T16:12:31-05:00,2015-01-07T16:28:07-05:00
+completed,Standard pregnancy test,65d12976-9588-4cfa-a795-216302a2ece9,80fd8fc5-4770-4e35-b31c-4d7b1be19c2f,,
+completed,Epidural anesthesia,65d12976-9588-4cfa-a795-216302a2ece9,df832f8f-457e-4706-a476-63e266ddf63a,,
+completed,Childbirth,65d12976-9588-4cfa-a795-216302a2ece9,df832f8f-457e-4706-a476-63e266ddf63a,,
+completed,Documentation of current medications,65d12976-9588-4cfa-a795-216302a2ece9,b6997c07-c33a-4db9-b3d9-038f58269e4e,,
+completed,Documentation of current medications,8b47143f-2d3b-4425-a872-569af4ec0818,1ab08082-a652-4337-aaa0-57d2e024b7f2,,
+completed,Measurement of respiratory function (procedure),8b47143f-2d3b-4425-a872-569af4ec0818,333ebab1-3eef-43bb-b49c-d5ec064353ab,2011-12-07T01:59:15-05:00,2011-12-07T02:21:10-05:00
+completed,Standard pregnancy test,8b47143f-2d3b-4425-a872-569af4ec0818,c638508e-37fe-4a11-bc79-24179a5aa037,,
+completed,Documentation of current medications,8b47143f-2d3b-4425-a872-569af4ec0818,7cc1b3e9-9876-47ce-bd71-dd97467861a0,,
+completed,Epidural anesthesia,8b47143f-2d3b-4425-a872-569af4ec0818,56419f7a-a676-4e71-a529-14bcf99aaa39,,
+completed,Childbirth,8b47143f-2d3b-4425-a872-569af4ec0818,56419f7a-a676-4e71-a529-14bcf99aaa39,,
+completed,Throat culture (procedure) ,1694897b-912e-401f-a135-aa59857a401e,3e27e449-09c3-438c-9200-ad24f8a5bf85,,
+completed,Documentation of current medications,1694897b-912e-401f-a135-aa59857a401e,e6bf504e-306b-4ee0-96c9-66c6d7ad0a65,,
+completed,Documentation of current medications,1694897b-912e-401f-a135-aa59857a401e,56155626-b08a-44a6-82e8-9b3e862965e5,,
+completed,Suture open wound,d0ed1873-9ac6-4c98-813e-86a041ce78c5,2f2540fd-d171-4e63-84bd-3fadfc186c82,2010-06-29T05:54:10-04:00,2010-06-29T06:19:38-04:00
+completed,Documentation of current medications,d0ed1873-9ac6-4c98-813e-86a041ce78c5,0e41d495-029e-4338-8173-25e62f81a199,,
+completed,Measurement of respiratory function (procedure),d0ed1873-9ac6-4c98-813e-86a041ce78c5,43dc3cc2-e6f6-4c79-b093-3035fcac20db,2010-12-23T11:06:56-05:00,2010-12-23T11:27:39-05:00
+completed,Documentation of current medications,d0ed1873-9ac6-4c98-813e-86a041ce78c5,b2a27b96-82b2-4755-b5be-ec6aff5b8028,,
+completed,Documentation of current medications,d0ed1873-9ac6-4c98-813e-86a041ce78c5,1f6fc603-26d8-4dd2-b8c5-3fb1bbdb12dd,,
+completed,Documentation of current medications,95ad0405-ec9e-4464-a708-750296dc1548,01e27c79-64df-4176-9931-eb7e7c57e2b6,,
+completed,Throat culture (procedure) ,2f3f9a7e-8142-40c8-8c4a-b58bc815b48d,bc51c0dc-26ad-4a57-82e5-7b9b8461c682,,
+completed,Documentation of current medications,2f3f9a7e-8142-40c8-8c4a-b58bc815b48d,635fed5c-619a-4784-a1f7-eba8dc3e0bd0,,
+completed,Documentation of current medications,2f3f9a7e-8142-40c8-8c4a-b58bc815b48d,9b710401-e540-416c-972c-328286eb6707,,
+completed,Documentation of current medications,2f3f9a7e-8142-40c8-8c4a-b58bc815b48d,397e728a-a6d2-4e93-bb2c-0281a458144a,,
+completed,Throat culture (procedure) ,2f3f9a7e-8142-40c8-8c4a-b58bc815b48d,b62853a5-0cef-4c38-981d-09cb0ed8cb46,,
+completed,Sputum examination (procedure),99937389-654f-4a48-8e74-ac81cf260e0f,3c09eaf8-5a9d-4860-8008-fb74a18b0a88,2011-08-25T20:34:10-04:00,2011-08-25T20:39:03-04:00
+completed,Documentation of current medications,99937389-654f-4a48-8e74-ac81cf260e0f,cdbc9a36-041b-415d-a87d-cd714c428d18,,
+completed,Suture open wound,32c72cdb-66bf-4301-895e-16da54ffd72d,8d2c6729-861f-4e43-91a7-61b9cf4e78a9,2015-01-08T06:10:54-05:00,2015-01-08T06:29:15-05:00
+completed,Bone immobilization,a5399e95-981c-4a78-8019-873662fc7901,7f88e6e7-b838-497a-86d6-aaf35b8cdf29,2014-02-07T22:43:10-05:00,2014-02-07T23:03:21-05:00
+completed,Documentation of current medications,a5399e95-981c-4a78-8019-873662fc7901,9e802e2c-77ad-401f-97e9-bb91f646b9d7,,
+completed,Admission to orthopedic department,bd0acd69-580e-4896-9974-2ad9d041ca0b,2de8efc2-b0a1-414e-acee-2202e0e617ba,2010-10-30T03:53:48-04:00,2010-10-30T05:10:22-04:00
+completed,Suture open wound,bd0acd69-580e-4896-9974-2ad9d041ca0b,afee7487-a8bb-48b2-b1bd-774bebdaed00,2011-11-21T04:02:10-05:00,2011-11-21T04:31:11-05:00
+completed,Documentation of current medications,bd0acd69-580e-4896-9974-2ad9d041ca0b,05dfde7b-b2ef-4166-8fb7-d90ddec17002,,
+completed,Documentation of current medications,bb357dc7-2f8a-444e-ba57-8291b6f18bf0,aa76d5b2-8587-4dae-b5f9-487ac3a89308,,
+completed,Colonoscopy,bb357dc7-2f8a-444e-ba57-8291b6f18bf0,4bc1695f-1cdb-4758-87f1-eb20560aad11,2013-07-26T20:52:52-04:00,2013-07-26T21:24:47-04:00
+completed,Documentation of current medications,bb357dc7-2f8a-444e-ba57-8291b6f18bf0,84a4b571-3b59-4d89-a849-6f01a3c08a6a,,
+completed,Documentation of current medications,bb357dc7-2f8a-444e-ba57-8291b6f18bf0,a4431145-6284-4220-ad71-00593251099d,,
+completed,Colonoscopy,117335bb-33ff-4897-ac27-af4b3f11135f,9cc1cf90-ba52-496a-9a72-6a122c37d718,2014-03-24T19:44:31-04:00,2014-03-24T20:24:49-04:00
+completed,Documentation of current medications,117335bb-33ff-4897-ac27-af4b3f11135f,5948265c-890d-4b41-9b89-61b195cfa4c5,,
+completed,Spirometry (procedure),cb13a48a-0dea-40c9-8eeb-8e275e101e5d,87a995d0-67b2-48b2-a489-0450ba43754d,,
+completed,Spirometry (procedure),cb13a48a-0dea-40c9-8eeb-8e275e101e5d,1270b322-e8b7-4ab2-91b4-6ddd18d73ef7,,
+completed,Spirometry (procedure),cb13a48a-0dea-40c9-8eeb-8e275e101e5d,0e356358-6f2d-453d-b1eb-1883f3255233,,
+completed,Documentation of current medications,cb13a48a-0dea-40c9-8eeb-8e275e101e5d,0e356358-6f2d-453d-b1eb-1883f3255233,,
+completed,Documentation of current medications,509474a0-baf3-48f2-a595-67b6e2b34c87,d9db693d-4bba-4571-bba9-ae6c1575b945,,
+completed,Documentation of current medications,509474a0-baf3-48f2-a595-67b6e2b34c87,f64fee9b-4eef-4238-a887-0f702c95e039,,
+completed,Measurement of respiratory function (procedure),509474a0-baf3-48f2-a595-67b6e2b34c87,0884eff2-30ce-4406-948a-e1e828a7a040,2013-11-04T05:08:12-05:00,2013-11-04T05:23:00-05:00
+completed,Documentation of current medications,509474a0-baf3-48f2-a595-67b6e2b34c87,127badbd-7ff8-4e2f-bf03-f75697a4db12,,
+completed,Measurement of respiratory function (procedure),509474a0-baf3-48f2-a595-67b6e2b34c87,a477ed48-f547-4c4a-9044-ff088e5225be,2014-12-15T18:25:02-05:00,2014-12-15T18:37:44-05:00
+completed,Documentation of current medications,c71d235f-9b58-4106-b744-c554da5e13fa,156d9280-10ac-4286-b3e1-87115bb6d763,,
+completed,Documentation of current medications,c71d235f-9b58-4106-b744-c554da5e13fa,88e5daba-9c01-43ce-868d-7718a72b5310,,
+completed,Documentation of current medications,c71d235f-9b58-4106-b744-c554da5e13fa,75ed8fbf-07d4-4738-8e08-03eec90ae63a,,
+completed,Documentation of current medications,a195633e-d36d-4abe-92bb-02994e9cb348,fe054716-3d1d-4652-8564-01a86d58cd87,,
+completed,Documentation of current medications,a195633e-d36d-4abe-92bb-02994e9cb348,e23fb9ad-56f4-4e34-8073-6c89277f03f8,,
