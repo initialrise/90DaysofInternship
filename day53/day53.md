@@ -1,0 +1,4 @@
+- delte functionality properly implemented
+- task compelted at around 3:30
+- new task assignged at around 4:30
+- new task is to work on modify chat response 

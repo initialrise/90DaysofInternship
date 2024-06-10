@@ -1,0 +1,5 @@
+- code review and branches merged
+- new tasks asigned during evening
+ - fix internal server error " bug
+ - fix title bug
+ - i started working on delete functionality instead

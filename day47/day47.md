@@ -1,0 +1,2 @@
+- AWS Access given
+- Guidelines Given about git push
