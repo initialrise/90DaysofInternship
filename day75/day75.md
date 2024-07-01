@@ -4,3 +4,4 @@
 - integrate api gateway authorization 
 - discuss on how to add plugins with ss
 - index rank on use case deploy
+- worked on title handling/mapping
